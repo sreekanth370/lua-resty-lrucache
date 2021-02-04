@@ -5,6 +5,9 @@ dist: trusty
 sudo: false
 
 language: c
+arch:
+  - amd64
+  - ppc64le
 compiler: gcc
 
 env:
